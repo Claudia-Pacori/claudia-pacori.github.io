@@ -7,7 +7,17 @@ Author URI: http://bootstrapthemes.co
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html,
+   .contact_contant a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.contact_contant a:hover {
+    color: #ccc !important;
+}
+
+
+   html,
 body {
     background-color: #fff;
     font-size: 18px;
@@ -747,7 +757,7 @@ service section css
     font-size: 1.125rem;
     display: block;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     overflow: hidden;
     line-height: 1.5rem;
 }
